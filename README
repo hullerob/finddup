@@ -1,0 +1,23 @@
+NAME
+====
+
+finddup - find duplicated files
+
+SYNOPSIS
+========
+
+  finddup <directory> ...
+
+DESCRIPTION
+===========
+
+Search for identical files in a directory hierarchy and cluster them.
+
+This tool clusters files by size and md5 hash. Then it prints clusters with
+at least 2 files.
+
+LIMITATIONS
+===========
+
+Finddup does not actually find identical files, rather finds files with
+identical hash and size.
